@@ -1,6 +1,7 @@
 # twit-wrapper
 
 [![npm (scoped)](https://img.shields.io/npm/v/@marko424/twit-wrapper.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
+
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@marko424/twit-wrapper.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
 
 ## Highly opinionated Twitter API client for Node.js
@@ -23,7 +24,12 @@ Only most commonly used function for interacting with Twitter API are implemente
 
 ```js
 const TwitterClient = require('@marko424/TwitterClient');
-const twitterClient = new TwitterClient(consumerKey, consumerSecret, accessToken, accessTokenSecret);
+const twitterClient = new TwitterClient(
+  consumerKey,
+  consumerSecret,
+  accessToken,
+  accessTokenSecret,
+);
 
 try {
   const msgToPost = 'Post a test message';
