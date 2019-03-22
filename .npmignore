@@ -1,0 +1,29 @@
+# coverage
+coverage
+.nyc_output
+
+# dependency
+node_modules
+
+# project files
+src
+test
+examples
+CHANGELOG.md
+.travis.yml
+.editorconfig
+.eslintignore
+.eslintrc
+.babelrc
+.gitignore
+.prettierignore
+.prettierrc
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# npm package lock
+package-lock.json
+yarn.lock

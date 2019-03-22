@@ -22,7 +22,7 @@ Only most commonly used function for interacting with Twitter API are implemente
 - getTweets(keyword, fromDate, lang = 'en', maxResults = 100)
 
 ```js
-const TwitterClient = require(' @marko424/TwitterClient');
+const TwitterClient = require('@marko424/TwitterClient');
 const twitterClient = new TwitterClient(consumerKey, consumerSecret, accessToken, accessTokenSecret);
 
 try {
@@ -34,7 +34,7 @@ try {
 }
 
 try {
-  const searchedTweets = await twitterClient.getTweets('basketball', '2017-01-01');
+  const searchedTweets = await twitterClient.getTweets('javascript', '2017-01-01');
   console.log(searchedTweets);
 } catch (e) {
   console.error(e);

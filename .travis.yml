@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - '10'
+
+branches:
+  only:
+    - master
+
+script:
+  - npm run lint
+  - npm run test-coverage
+  - npm run build-node
