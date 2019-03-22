@@ -1,7 +1,6 @@
 # twit-wrapper
 
 [![npm (scoped)](https://img.shields.io/npm/v/@marko424/twit-wrapper.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
-
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@marko424/twit-wrapper.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
 
 ## Highly opinionated Twitter API client for Node.js
