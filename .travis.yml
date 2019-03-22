@@ -7,6 +7,10 @@ branches:
   only:
     - master
 
+deploy:
+  provider: npm
+  email: kosir.mar@gmail.com
+  api_key: $NPM_TOKEN
+
 script:
   - npm run prepublish-clean
-  # - npm publish
