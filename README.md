@@ -8,3 +8,25 @@ Only most commonly used function for interacting with Twitter API are implemente
 
 - postTweet(msg)
 - getTweets(keyword, fromDate)
+
+Usage:
+
+```
+const TwitterClient = require('TwitterClient');
+const twitterClient = new TwitterClient();
+
+try {
+  const msgToPost = 'Post a test message';
+  const postedMsg = await twitterClient.postTweet(msgToPost);
+	console.log(postedMsg)
+} catch (e) {
+  console.error(e);
+}
+
+try {
+  const searchedTweets = await twitterClient.searchTweets('basketball', '2017-01-01');
+  console.log(searchedTweets);
+} catch (e) {
+  console.error(e);
+}
+```
