@@ -1,5 +1,8 @@
 # twit-wrapper
 
+[![npm (scoped)](https://img.shields.io/npm/v/@bamblehorse/tiny.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/@bamblehorse/tiny.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
+
 ## Highly opinionated Twitter API client for Node.js
 
 This is a small heavily opinionated utility wrapper library around [twit](https://github.com/ttezel/twit).  
@@ -25,7 +28,7 @@ const twitterClient = new TwitterClient();
 try {
   const msgToPost = 'Post a test message';
   const postedMsg = await twitterClient.postTweet(msgToPost);
-	console.log(postedMsg)
+  console.log(postedMsg)
 } catch (e) {
   console.error(e);
 }
