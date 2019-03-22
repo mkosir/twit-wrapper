@@ -6,10 +6,12 @@
   "repository": "mkosir/twit-wrapper",
   "main": "./lib/TwitterClient.js",
   "scripts": {
+    "clean": "rimraf dist",
     "test-mocha": "mocha",
     "test-coverage": "nyc mocha",
     "lint": "eslint src test",
-    "build-node": "babel ./src --out-dir ./dist --source-maps --copy-files"
+    "build-node": "babel ./src --out-dir ./dist --source-maps --copy-files",
+    "prepublish": "npm run clean && npm run lint && npm run test-coverage && npm run build-node"
   },
   "keywords": [
     "twitter",
@@ -35,6 +37,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "mocha": "^6.0.2",
-    "nyc": "^13.3.0"
+    "nyc": "^13.3.0",
+    "rimraf": "^2.6.3"
   }
 }
