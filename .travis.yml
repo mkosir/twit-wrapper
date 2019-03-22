@@ -8,4 +8,5 @@ branches:
     - master
 
 script:
-  - npm run prepublish
+  - npm run prepublish-clean
+  # - npm publish

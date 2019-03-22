@@ -1,6 +1,6 @@
 {
   "name": "@marko424/twit-wrapper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Twitter API client for Node.js",
   "license": "MIT",
   "repository": "mkosir/twit-wrapper",
@@ -11,7 +11,7 @@
     "test-coverage": "nyc mocha",
     "lint": "eslint src test",
     "build-node": "babel ./src --out-dir ./dist --source-maps --copy-files",
-    "prepublish": "npm run clean && npm run lint && npm run test-coverage && npm run build-node"
+    "prepublish-clean": "npm run clean && npm run lint && npm run test-coverage && npm run build-node"
   },
   "keywords": [
     "twitter",
