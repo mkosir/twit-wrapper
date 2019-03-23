@@ -1,8 +1,8 @@
 # twit-wrapper
 
-[![npm (scoped)](https://img.shields.io/npm/v/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
+[![npm](https://img.shields.io/npm/v/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
 [![Travis (.org)](https://img.shields.io/travis/mkosir/twit-wrapper.svg)](https://travis-ci.org/mkosir/twit-wrapper)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
 
 ## Highly opinionated Twitter API client for Node.js
 
@@ -31,6 +31,7 @@ const twitterClient = new TwitterClient(
   accessTokenSecret,
 );
 
+// post new tweet
 try {
   const msgToPost = 'Post a test message';
   const postedMsg = await twitterClient.postTweet(msgToPost);
@@ -39,6 +40,7 @@ try {
   console.error(e);
 }
 
+// search twitter for all tweets containing the word 'javascript' since January 1, 2017
 try {
   const searchedTweets = await twitterClient.getTweets('javascript', '2017-01-01');
   console.log(searchedTweets);
