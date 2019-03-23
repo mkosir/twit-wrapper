@@ -1,8 +1,8 @@
 # twit-wrapper
 
-[![npm (scoped)](https://img.shields.io/npm/v/@marko424/twit-wrapper.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
+[![npm (scoped)](https://img.shields.io/npm/v/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
 [![Travis (.org)](https://img.shields.io/travis/mkosir/twit-wrapper.svg)](https://travis-ci.org/mkosir/twit-wrapper)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/@marko424/twit-wrapper.svg)](https://www.npmjs.com/package/@marko424/twit-wrapper)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
 
 ## Highly opinionated Twitter API client for Node.js
 
