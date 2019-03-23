@@ -1,10 +1,10 @@
 {
   "name": "twit-wrapper",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Twitter API client for Node.js",
   "license": "MIT",
   "repository": "mkosir/twit-wrapper",
-  "main": "./lib/TwitterClient.js",
+  "main": "./dist/TwitterClient.js",
   "scripts": {
     "clean": "rimraf dist",
     "test-mocha": "mocha",
