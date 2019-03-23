@@ -1,6 +1,6 @@
 {
   "name": "twit-wrapper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Twitter API client for Node.js",
   "license": "MIT",
   "repository": "mkosir/twit-wrapper",

@@ -1,7 +1,7 @@
 // const TwitterClient = require('../src/TwitterClient');
 // const twitterClient = new TwitterClient(
-//   consumerKey,
-//   consumerSecret,
+//   consumerAPIKey,
+//   consumerAPISecretKey,
 //   accessToken,
 //   accessTokenSecret,
 // );

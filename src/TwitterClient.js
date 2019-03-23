@@ -2,16 +2,16 @@ const Twit = require('twit');
 
 class TwitterClient {
   constructor(
-    consumerKey,
-    consumerSecret,
+    consumerAPIKey,
+    consumerAPISecretKey,
     accessToken,
     accessTokenSecret,
     timeout = 60000,
     strictSSL = true,
   ) {
     this.twit = new Twit({
-      consumer_key: consumerKey,
-      consumer_secret: consumerSecret,
+      consumer_key: consumerAPIKey,
+      consumer_secret: consumerAPISecretKey,
       access_token: accessToken,
       access_token_secret: accessTokenSecret,
       timeout_ms: timeout,

@@ -9,6 +9,16 @@
 This is a small heavily opinionated utility wrapper library around [twit](https://github.com/ttezel/twit).  
 It is implemented with facade pattern which translates twit library's existing interface into simplified one.
 
+#### Prerequisite
+
+To interact with Twitter API, head over to [Twitter Developer Platform](https://developer.twitter.com/) and create new application.  
+Once you are done filling out information, you need to generate four access tokens:
+
+- Consumer API Key
+- Consumer API Secret Key
+- Access Token
+- Access Token Secret
+
 ## Install
 
 ```shell
@@ -25,8 +35,8 @@ Only most commonly used function for interacting with Twitter API are implemente
 ```js
 const TwitterClient = require('twit-wrapper');
 const twitterClient = new TwitterClient(
-  consumerKey,
-  consumerSecret,
+  consumerAPIKey,
+  consumerAPISecretKey,
   accessToken,
   accessTokenSecret,
 );
