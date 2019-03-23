@@ -1,5 +1,6 @@
 const Twit = require('twit');
 
+// 1.0.1
 class TwitterClient {
   constructor(
     consumerKey,
