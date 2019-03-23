@@ -12,7 +12,7 @@ It is implemented with facade pattern which translates twit library's existing i
 ## Install
 
 ```shell
-npm i @marko424/twit-wrapper
+npm i twit-wrapper
 ```
 
 ## Usage:
@@ -23,7 +23,7 @@ Only most commonly used function for interacting with Twitter API are implemente
 - getTweets(keyword, fromDate, lang = 'en', maxResults = 100)
 
 ```js
-const TwitterClient = require('@marko424/TwitterClient');
+const TwitterClient = require('twit-wrapper');
 const twitterClient = new TwitterClient(
   consumerKey,
   consumerSecret,
