@@ -1,6 +1,6 @@
 {
   "name": "twit-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Twitter API client for Node.js",
   "license": "MIT",
   "repository": "mkosir/twit-wrapper",
@@ -38,6 +38,7 @@
     "eslint-plugin-react": "^7.12.4",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
+    "prettier": "^1.16.4",
     "rimraf": "^2.6.3"
   }
 }
