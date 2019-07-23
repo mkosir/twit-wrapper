@@ -4,9 +4,9 @@
 [![Travis (.org)](https://img.shields.io/travis/mkosir/twit-wrapper.svg)](https://travis-ci.org/mkosir/twit-wrapper)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
 
-## Highly opinionated Twitter API client for Node.js
+## Twitter API client for Node.js
 
-This is a small heavily opinionated utility wrapper library around [twit](https://github.com/ttezel/twit).  
+This is a small utility wrapper library around [twit](https://github.com/ttezel/twit).  
 It is implemented with facade pattern which translates twit library's existing interface into simplified one.
 
 #### Prerequisite
