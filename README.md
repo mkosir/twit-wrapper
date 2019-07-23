@@ -6,8 +6,7 @@
 
 ## Twitter API client for Node.js
 
-This is a small utility wrapper library around [twit](https://github.com/ttezel/twit).  
-It is implemented with facade pattern which translates twit library's existing interface into simplified one.
+This is a small utility wrapper/facade library which translates [twit](https://github.com/ttezel/twit) existing interface into simplified one.
 
 #### Prerequisite
 
