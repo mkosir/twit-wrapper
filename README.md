@@ -2,7 +2,6 @@
 
 [![npm](https://img.shields.io/npm/v/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
 [![Travis (.org)](https://img.shields.io/travis/mkosir/twit-wrapper.svg)](https://travis-ci.org/mkosir/twit-wrapper)
-[![npm bundle size](https://img.shields.io/bundlephobia/min/twit-wrapper.svg)](https://www.npmjs.com/package/twit-wrapper)
 
 ## Twitter API client for Node.js
 
